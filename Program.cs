@@ -1,24 +1,24 @@
 ﻿/// Summary
-/// Program function: Convert minutes into seconds and displays result
-/// Author: Jacob Wehage
-/// Date Created: Sept 11, 2024
+///
+///
+///
 /// /Summary
 
-// Define second as int
-int second = 0;
-// Define minute as int
-int minute = 0;
-// Define counter as int
-int counter = 0;
+float figure1;
+float figure2;
 
-// Declare 1 minute being equal to 60 seconds
+float smallerFigure;
 
-// Prompt user to input amount of minutes
+Console.WriteLine("Subtract your enemies!");
 
-// Count how many minutes the user input
+Console.Write("How many enemies do you have: ");
+figure1 = float.Parse(Console.ReadLine());
 
-// multiply the amount of the counter, by the seconds in a minute
+Console.Write("How many enemies did you destroy: ");
+figure2 = float.Parse(Console.ReadLine());
 
-// Display the result for the user
+smallerFigure = figure1 - figure2;
 
-// End Program
+Console.WriteLine("Enemies remaining: " + smallerFigure);
+Console.WriteLine("END PROGRAM");
+Console.ReadLine();
